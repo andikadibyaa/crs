@@ -1,0 +1,41 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Local IDEs configuration
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Model checkpoints / serialized models (usually large files)
+*.pkl
+*.pickle
+*.joblib
+*.pb
+*.h5
+
+# Local data (if you download datasets locally)
+data/
+*.csv
+*.xlsx
+*.json
+!requirements.txt
