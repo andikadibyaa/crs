@@ -1,0 +1,21 @@
+# Data Manipulation & Math (Pinning NumPy to < 2.0 to avoid compatibility issues)
+numpy==1.26.4
+pandas==2.2.2
+
+# Machine Learning & Model Saving
+scikit-learn==1.5.0
+xgboost==2.0.3
+lightgbm==4.3.0
+joblib==1.4.2
+
+# Visualization (for the Notebook analysis)
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# API Backend (FastAPI for serving the model to Next.js)
+fastapi==0.111.0
+uvicorn==0.30.1
+pydantic==2.7.4
+
+# Notebook Support
+ipykernel==6.29.4
