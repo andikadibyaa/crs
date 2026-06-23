@@ -9,6 +9,7 @@ xgboost==2.0.3
 lightgbm==4.3.0
 statsmodels==0.14.2
 joblib==1.4.2
+optuna==3.6.1
 
 # Visualization (for the Notebook analysis)
 matplotlib==3.9.0
